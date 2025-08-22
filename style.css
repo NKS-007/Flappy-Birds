@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("bgimage.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: "Special Elite", system-ui;
+}
+
+nav{
+    background-color: #000000;
+    box-shadow: 3px 3px 5px rgba(0,0,0,1);
+    width: 100%;
+    max-width: auto;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding-left: 5px;
+}
+
+.heading{
+    color:black;
+    font-size: 6rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    margin: 2rem;
+}
+nav li{
+    height: 50px;
+    margin: 0 10px;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav li:first-child{
+    margin-right: auto;
+}
+
+.people{
+    height: 600px; 
+    width: 380px;
+    margin: 0 50px;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+}
+
+.image p{
+    text-decoration: none;
+}
+.person .names{
+    text-align: left;
+}
