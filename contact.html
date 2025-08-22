@@ -1,17 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Card</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url('bgimage.jpg') no-repeat center center/cover;
+      font-family: Arial, sans-serif;
+    }
 
-    </style>
+    .card {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 15px;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      width: 300px;
+    }
+
+    .card h2 {
+      margin: 0;
+      font-size: 24px;
+      color: #333;
+    }
+
+    .card p {
+      margin: 8px 0;
+      color: #555;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 10px 15px;
+      background: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+
+    .card a:hover {
+      background: #555;
+    }
+  </style>
 </head>
 <body>
-    <div class="box">
-        <h1>Welcome to our page!</h1>
-        <p>website for showcasing the talents of humankind.</p>
-    </div>
+  <div class="card">
+    <h2>Flappy Birds</h2>
+    <p>Email: sv3052@srmist.edu.in</p>
+    <p>Phone: +91 9876543210</p>
+    <p>Location: Chennai, India</p>
+    <a href="mailto:john.doe@example.com">Contact</a>
+  </div>
 </body>
 </html>

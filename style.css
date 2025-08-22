@@ -5,7 +5,7 @@
     margin: 0;
 }
 body{
-    background-image: url("bgimage.jpg");
+    background-image: url("/assets/bgimage.jpg");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -71,9 +71,41 @@ nav li:first-child{
     flex-direction: row;
 }
 
-.image p{
+a{
     text-decoration: none;
+    color: black;
+    font-size: 2rem;
 }
-.person .names{
-    text-align: left;
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.break{
+    padding: 10px;
+    margin: 2rem;
+    text-align: center;
+    font-size: 5rem;
+}
+
+
+
+nav a{
+    height: 100%;
+    padding: 0 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+
+.items{
+    margin: 10px;
+}
+
+.person p{
+    margin: 20px;
 }
